@@ -1,0 +1,29 @@
+/* Dark Mode (Default) */
+:root {
+    --bg-color: #0d1117;
+    --text-color: #e4e6eb;
+    --primary-color: #1f6feb;
+    --secondary-color: #161b22;
+  }
+  
+  /* Light Mode */
+  .light-mode {
+    --bg-color: #ffffff;
+    --text-color: #111;
+    --primary-color: #005cc5;
+    --secondary-color: #f0f0f0;
+  }
+  
+  /* Apply Theme */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  button {
+    background: var(--primary-color);
+  }
+  
+  button:hover {
+    background: darken(var(--primary-color), 10%);
+  }

@@ -1,0 +1,36 @@
+/* Mobile Styles (Max: 768px) */
+@media (max-width: 768px) {
+    .container {
+      padding: 0 10px;
+    }
+  
+    /* Navbar */
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+    }
+  
+    /* Footer */
+    .footer {
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+  
+  /* Tablet Styles (Max: 1024px) */
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 90%;
+    }
+  }

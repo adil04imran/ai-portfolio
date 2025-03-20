@@ -1,0 +1,14 @@
+{
+    "particles": {
+      "number": { "value": 80, "density": { "enable": true, "area": 800 } },
+      "color": { "value": "#58a6ff" },
+      "shape": { "type": "circle" },
+      "opacity": { "value": 0.5, "random": true },
+      "size": { "value": 3, "random": true },
+      "move": { "enable": true, "speed": 1, "direction": "none", "random": false }
+    },
+    "interactivity": {
+      "events": { "onHover": { "enable": true, "mode": "repulse" } },
+      "modes": { "repulse": { "distance": 100, "duration": 0.4 } }
+    }
+  }
